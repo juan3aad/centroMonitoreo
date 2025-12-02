@@ -333,7 +333,7 @@ const defaultIndices = [
     title: 'Generación promedio diaria',
     updated: 'Julio vs junio 2025',
     groups: [
-      { name: 'Hídrica', value: '195.49', unit: 'GWh-día', delta: '+7.2 GWh (+3.6%)', dir: 'up' },
+      { name: 'Hídrica', value: '198.49', unit: 'GWh-día', delta: '+7.2 GWh (+3.6%)', dir: 'up' },
       { name: 'Térmica', value: '24.37', unit: 'GWh-día', delta: '−0.7 GWh (−2.6%)', dir: 'down' },
       { name: 'FNCER', value: '15.03', unit: 'GWh-día', delta: '+1.2 GWh (+8.9%)', dir: 'up' },
     ],
