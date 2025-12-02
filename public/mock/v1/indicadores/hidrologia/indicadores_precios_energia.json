@@ -1,0 +1,14 @@
+{
+  "mes_actual": "2025-07",
+  "mes_anterior": "2025-06",
+  "minimo_promedio_diario_actual": 102.96,
+  "diff_abs_minimo": -3.82,
+  "diff_pct_minimo": -3.7,
+  "promedio_diario_mes_actual": 125.75,
+  "diff_abs_promedio": 13.77,
+  "diff_pct_promedio": 10.9,
+  "maximo_promedio_diario_actual": 352.33,
+  "diff_abs_maximo": 170.34,
+  "diff_pct_maximo": 48.3,
+  "precio_marginal_escasez": 865.22
+}

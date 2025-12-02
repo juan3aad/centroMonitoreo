@@ -1,0 +1,29 @@
+{
+  "mes_actual": "2025-07",
+  "mes_anterior": "2025-06",
+  "generacion_por_tecnologia": [
+    {
+      "tecnologia": "HIDRAULICA",
+      "mes_actual": 195.49,
+      "diff_abs": 7.2,
+      "diff_pct": 3.6
+    },
+    {
+      "tecnologia": "TERMICA",
+      "mes_actual": 24.37,
+      "diff_abs": -0.7,
+      "diff_pct": -2.6
+    },
+    {
+      "tecnologia": "FNCER",
+      "mes_actual": 15.03,
+      "diff_abs": 1.2,
+      "diff_pct": 8.9
+    }
+  ],
+  "demanda_real": {
+    "mes_actual": [234.90],
+    "diff_abs": [7.7],
+    "diff_pct": [3.3]
+  }
+}

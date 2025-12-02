@@ -1,0 +1,17 @@
+[
+  {
+    "hito": "Licencia Ambiental",
+    "cantidad": 50,
+    "fecha_limite": "2026-03-15"
+  },
+  {
+    "hito": "Inicio de Construcción",
+    "cantidad": 30,
+    "fecha_limite": "2026-06-30"
+  },
+  {
+    "hito": "Puesta en Operación",
+    "cantidad": 15,
+    "fecha_limite": "2027-01-01"
+  }
+]

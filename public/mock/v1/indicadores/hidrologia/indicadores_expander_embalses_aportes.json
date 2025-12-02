@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "nombre": "Ituango",
+    "region": "Antioquia",
+    "aportes_gwh_dia": "23.00 (+2.55)",
+    "porcentaje": "100% (+34.89)",
+    "media_historica_gwh_dia": "1200 GWh-día"
+  },
+  {
+    "id": 102,
+    "nombre": "Miraflores",
+    "region": "Antioquia",
+    "aportes_gwh_dia": "23.00 (+2.55)",
+    "porcentaje": "100% (+34.89)",
+    "media_historica_gwh_dia": "1200 GWh-día"
+  },
+  {
+    "id": 201,
+    "nombre": "Amani",
+    "region": "Caldas",
+    "aportes_gwh_dia": "23.00 (-2.55)",
+    "porcentaje": "100% (-34.89)",
+    "media_historica_gwh_dia": "1200 GWh-día"
+  }
+]

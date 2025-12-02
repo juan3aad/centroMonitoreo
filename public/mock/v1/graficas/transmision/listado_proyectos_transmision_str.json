@@ -1,0 +1,35 @@
+[
+  {
+    "nombre_proyecto": "Conexión Parque Solar La Guajira",
+    "or": "XM S.A. E.S.P.",
+    "etapa": "Pre-construcción",
+    "estado": "Aprobado",
+    "generacion_asociada_a_proyecto": "Sí",
+    "fpo_concepto_upme": "2025-09-01",
+    "clasificacion_por_impacto": "Alto",
+    "meses_de_atraso": 2.5,
+    "radar_de_seguimiento_nivel": 2
+  },
+  {
+    "nombre_proyecto": "Refuerzo Subestación Barranquilla",
+    "or": "Afrocolombiana de Energía",
+    "etapa": "Construcción",
+    "estado": "En Ejecución",
+    "generacion_asociada_a_proyecto": "No",
+    "fpo_concepto_upme": "2024-12-01",
+    "clasificacion_por_impacto": "Medio",
+    "meses_de_atraso": 7,
+    "radar_de_seguimiento_nivel": 1
+  },
+  {
+    "nombre_proyecto": "Interconexión Eléctrica Chocó",
+    "or": "Celsia S.A. E.S.P.",
+    "etapa": "Estudios",
+    "estado": "En Evaluación",
+    "generacion_asociada_a_proyecto": "No",
+    "fpo_concepto_upme": "2026-03-01",
+    "clasificacion_por_impacto": "Bajo",
+    "meses_de_atraso": "No reporta",
+    "radar_de_seguimiento_nivel": 3
+  }
+]

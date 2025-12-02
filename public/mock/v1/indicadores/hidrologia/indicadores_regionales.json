@@ -1,0 +1,152 @@
+{
+  "fecha": "2025-08-23",
+  "regiones": [
+    {
+      "id": 1,
+      "nombre": "Antioquia",
+      "resumen": {
+        "nivel": "90%",
+        "aportes_hidricos": "+12%",
+        "capacidad_generacion_mw": 1200
+      },
+      "embalses": [
+        {
+          "id": 101,
+          "nombre": "Ituango",
+          "resumen": {
+            "nivel": "90%",
+            "aportes_hidricos": "+12%",
+            "capacidad_generacion_mw": "1200 MW"
+          },
+          "detalle_embalse": {
+            "volumen_gwh_dia": "23.00 (+2.55)",
+            "nivel": "90%",
+            "capacidad_gwh_dia": "1200 GWh-día"
+          },
+          "detalle_aportes": {
+            "aportes_gwh_dia": "23.00 (+2.55)",
+            "porcentaje": "100% (+34.89)",
+            "media_historica_gwh_dia": "1200 GWh-día"
+          }
+        },
+        {
+          "id": 102,
+          "nombre": "Miraflores",
+          "resumen": {
+            "nivel": "99%",
+            "aportes_hidricos": "+12%",
+            "capacidad_generacion_mw": "1200 MW"
+          },
+          "detalle_embalse": {
+            "volumen_gwh_dia": "23.00 (+2.55)",
+            "nivel": "99%",
+            "capacidad_gwh_dia": "1200 GWh-día"
+          },
+          "detalle_aportes": {
+            "aportes_gwh_dia": "23.00 (+2.55)",
+            "porcentaje": "100% (+34.89)",
+            "media_historica_gwh_dia": "1200 GWh-día"
+          }
+        },
+        {
+          "id": 103,
+          "nombre": "Peñol",
+          "resumen": {
+            "nivel": "20%",
+            "aportes_hidricos": "+12%",
+            "capacidad_generacion_mw": "1200 MW"
+          },
+          "detalle_embalse": {
+            "volumen_gwh_dia": "23.00 (+2.55)",
+            "nivel": "20%",
+            "capacidad_gwh_dia": "1200 GWh-día"
+          },
+          "detalle_aportes": {
+            "aportes_gwh_dia": "23.00 (+2.55)",
+            "porcentaje": "100% (+34.89)",
+            "media_historica_gwh_dia": "1200 GWh-día"
+          }
+        },
+        {
+          "id": 104,
+          "nombre": "Playas",
+          "resumen": {
+            "nivel": "40%",
+            "aportes_hidricos": "+12%",
+            "capacidad_generacion_mw": "1200 MW"
+          },
+          "detalle_embalse": {
+            "volumen_gwh_dia": "23.00 (+2.55)",
+            "nivel": "40%",
+            "capacidad_gwh_dia": "1200 GWh-día"
+          },
+          "detalle_aportes": {
+            "aportes_gwh_dia": "23.00 (+2.55)",
+            "porcentaje": "100% (+34.89)",
+            "media_historica_gwh_dia": "1200 GWh-día"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Caldas",
+      "resumen": {
+        "nivel": "99%",
+        "aportes_hidricos": "-8%",
+        "capacidad_generacion_mw": 1200
+      },
+      "embalses": [
+        {
+          "id": 201,
+          "nombre": "Amani",
+          "resumen": {
+            "nivel": "90%",
+            "aportes_hidricos": "+12%",
+            "capacidad_generacion_mw": "1200 MW"
+          },
+          "detalle_embalse": {
+            "volumen_gwh_dia": "23.00 (+2.55)",
+            "nivel": "90%",
+            "capacidad_gwh_dia": "1200 GWh-día"
+          },
+          "detalle_aportes": {
+            "aportes_gwh_dia": "23.00 (-2.55)",
+            "porcentaje": "100% (-34.89)",
+            "media_historica_gwh_dia": "1200 GWh-día"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Caribe",
+      "resumen": {
+        "nivel": "40%",
+        "aportes_hidricos": "+12%",
+        "capacidad_generacion_mw": 1200
+      },
+      "embalses": [
+        {
+          "id": 301,
+          "nombre": "Urra1",
+          "resumen": {
+            "nivel": "90%",
+            "aportes_hidricos": "+12%",
+            "capacidad_generacion_mw": "1200 MW"
+          },
+          "detalle_embalse": {
+            "volumen_gwh_dia": "23.00 (+2.55)",
+            "nivel": "90%",
+            "capacidad_gwh_dia": "1200 GWh-día"
+          },
+          "detalle_aportes": {
+            "aportes_gwh_dia": "23.00 (+2.55)",
+            "porcentaje": "100% (+34.89)",
+            "media_historica_gwh_dia": "1200 GWh-día"
+          }
+        }
+      ]
+    }
+  ]
+}

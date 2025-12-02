@@ -1,0 +1,138 @@
+[
+	{
+		"seccion": "Resumen",
+		"elementos": [
+			{
+				"nombre": "Card Capacidad instalada en operación",
+				"identificador": "res_card_capacidad_inst_operacion",
+				"TooltipID": 1,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) que actualmente se encuentran en operación."
+			},
+			{
+				"nombre": "Card Capacidad instalada en pruebas",
+				"identificador": "res_card_capacidad_inst_prueba",
+				"TooltipID": 2,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) que actualmente están en estado de pruebas."
+			},
+			{
+				"nombre": "Card MW",
+				"identificador": "res_card_mw",
+				"TooltipID": 3,
+				"Texto": "Capacidad instalada total de todos los proyectos FNCER (PCH, solar y eólica) en el país."
+			},
+			{
+				"nombre": "Card FNCER gran escala",
+				"identificador": "res_card_fncer",
+				"TooltipID": 4,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) conectados al SIN con una capacidad superior a 0.1 MW."
+			},
+			{
+				"nombre": "Card Autogeneración a gran escala",
+				"identificador": "res_card_agge",
+				"TooltipID": 5,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) considerados autogeneradores con una capacidad superior a 1 MW."
+			},
+			{
+				"nombre": "Card Generación distribuida",
+				"identificador": "res_card_gd",
+				"TooltipID": 6,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) clasificados como generación distribuida bajo la Resolución CREG 174 de 2021."
+			},
+			{
+				"nombre": "Card Autogeneración a pequeña escala",
+				"identificador": "res_card_agpe",
+				"TooltipID": 7,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) considerados autogeneradores con una capacidad inferior a 1 MW."
+			},
+			{
+				"nombre": "Card Zonas no interconectas",
+				"identificador": "res_card_zni",
+				"TooltipID": 8,
+				"Texto": "Capacidad instalada total de proyectos FNCER (PCH, solar y eólica) ubicados en Zonas No Interconectadas del país."
+			},
+			{
+				"nombre": "Grafica Evolución capacidad por tecnología",
+				"identificador": "res_grafica_capacidad_instalada_tecnologia",
+				"TooltipID": 9,
+				"Texto": "Capacidad instalada acumulada de proyectos FNCER (PCH, solar y eólica), ordenada por fecha de entrada en operación."
+			},
+			{
+				"nombre": "Grafica Distribución actual por tecnología",
+				"identificador": "res_grafica_distribucion_actual_tecnologia",
+				"TooltipID": 10,
+				"Texto": "Distribución porcentual de la capacidad instalada de proyectos FNCER según su tecnología."
+			},
+			{
+				"nombre": "Grafica Distribución capacidad instalada por proyecto",
+				"identificador": "res_grafica_distribucion_capacidad_instalada_tipo_proyecto",
+				"TooltipID": 11,
+				"Texto": "Distribución porcentual de la capacidad instalada de proyectos FNCER según su tipo de clasificación."
+			},
+			{
+				"nombre": "Grafica Capacidad entrante mes",
+				"identificador": "res_grafica_capacidad_entrante_mes",
+				"TooltipID": 12,
+				"Texto": "Capacidad instalada total por mes, según la fecha de entrada en operación, de proyectos registrados bajo la Resolución CREG 075 de 2021 con concepto aprobado."
+			},
+			{
+				"nombre": "Grafica Evolución anual matriz energética despachada centralmente",
+				"identificador": "res_grafica_evolucion_anual_energetica_despachada_centralmente",
+				"TooltipID": 13,
+				"Texto": "Distribución anual de la capacidad instalada total y la capacidad despachada centralmente del Sistema Interconectado Nacional."
+			},
+			{
+				"nombre": "Grafica Generación real diaria por tecnología",
+				"identificador": "res_grafica_generacion_real_diaria_tecnologia",
+				"TooltipID": 14,
+				"Texto": "Distribución de la generación neta por tecnología, medida en los puntos de frontera de cada planta del país."
+			}
+		]
+	},
+	{
+		"seccion": "Proyectos de Generación",
+		"elementos": [
+			{
+				"nombre": "Card Solicitudes totales",
+				"identificador": "proy_card_solicitudes_totales",
+				"TooltipID": 15,
+				"Texto": "Número total de proyectos registrados bajo la Resolución CREG 075 de 2021."
+			},
+			{
+				"nombre": "Card Proyectos en operación",
+				"identificador": "proy_card_en_operacion",
+				"TooltipID": 16,
+				"Texto": "Número total de proyectos y su capacidad instalada, registrados bajo la Resolución CREG 075 de 2021, que se encuentran en operación."
+			},
+			{
+				"nombre": "Card Proyectos en operación FNCER",
+				"identificador": "proy_card_en_operacion_fncer",
+				"TooltipID": 17,
+				"Texto": "Número total de proyectos y su capacidad instalada, registrados bajo la Resolución CREG 075 de 2021, que están en operación y corresponden a PCH, solar o eólica."
+			},
+			{
+				"nombre": "Card Solicitudes aprobadas FNCER por entrar",
+				"identificador": "proy_card_solicitudes_aprobadas_entrar",
+				"TooltipID": 18,
+				"Texto": "Número total de proyectos y su capacidad instalada, registrados bajo la Resolución CREG 075 de 2021, que están en estado de concepto aprobado y corresponden a PCH, solar o eólica."
+			},
+			{
+				"nombre": "Card Proyectos FNCER FPO",
+				"identificador": "proy_card_fncer_con_fpo",
+				"TooltipID": 19,
+				"Texto": "Número total de proyectos y su capacidad instalada, registrados bajo la Resolución CREG 075 de 2021, cuya fecha vigente de entrada en operación es anterior a la fecha actual, no están en operación y corresponden a PCH, solar o eólica."
+			},
+			{
+				"nombre": "Grafica Licencias FNCER otorgadas",
+				"identificador": "proy_grafica_fncer_otorgada",
+				"TooltipID": 20,
+				"Texto": "Número total de licencias ANLA otorgadas a proyectos FNCER por año."
+			},
+			{
+				"nombre": "Grafica Tiempo promedio de aprobación licencia departamento",
+				"identificador": "proy_grafica_tiempo_promedio_aprobacion_licencia_dpto",
+				"TooltipID": 21,
+				"Texto": "Promedio de días que tarda la obtención de la licencia ANLA, desde su radicación, para proyectos FNCER por departamento."
+			}
+		]
+	}
+]

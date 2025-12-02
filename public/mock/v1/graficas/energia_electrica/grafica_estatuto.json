@@ -1,0 +1,27 @@
+[
+  {
+    "mes": "Enero",
+    "estatuto_aplicado": 150.5,
+    "estatuto_previsto": 140.0
+  },
+  {
+    "mes": "Febrero",
+    "estatuto_aplicado": 155.2,
+    "estatuto_previsto": 145.0
+  },
+  {
+    "mes": "Marzo",
+    "estatuto_aplicado": 160.1,
+    "estatuto_previsto": 150.0
+  },
+  {
+    "mes": "Abril",
+    "estatuto_aplicado": 158.7,
+    "estatuto_previsto": 152.0
+  },
+  {
+    "mes": "Mayo",
+    "estatuto_aplicado": 162.3,
+    "estatuto_previsto": 155.0
+  }
+]

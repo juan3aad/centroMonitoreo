@@ -1,0 +1,22 @@
+{
+  "fecha": "2025-08-23",
+  "volumen_util_gwh": 125.5,
+  "porcentaje_util": 75.2,
+  "dif_volumen_diario": 2.1,
+  "dif_porcentaje_diario": 1.5,
+  "mes": 8,
+  "anio": 2025,
+  "aportes_mensual_promedio": 130.8,
+  "aportes_porcentaje_mensual": 88.5,
+  "aportes_media_historica": 120.0,
+  "dif_aportes_mensual": 5.3,
+  "dif_aportes_porcentaje_mensual": 4.2,
+  "capacidad_hidraulica_total_mw": 12500,
+  "generacion_hidraulica_gwh_dia": 150,
+  "porcentaje_participacion": 65,
+  "embalses_principales": [
+    {"nombre": "Ituango", "capacidad_mw": 2400},
+    {"nombre": "Guavio", "capacidad_mw": 1210},
+    {"nombre": "Betania", "capacidad_mw": 540}
+  ]
+}

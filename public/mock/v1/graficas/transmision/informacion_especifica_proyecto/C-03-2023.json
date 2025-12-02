@@ -1,0 +1,78 @@
+[
+  {
+    "header": {
+      "title": "C-01-2023 Ampliación Subestación Eléctrica Norte III",
+      "status": "Estudios, Diseños y Licenciamiento",
+      "location": "Antioquia",
+      "investor": "Energía Futura S.A"
+    },
+    "milestones": [
+      {
+        "title": "FPO reporte",
+        "value": "18/nov/2025",
+        "updated": "17/jul/2025"
+      },
+      {
+        "title": "FPO inicial",
+        "value": "31/may/2025",
+        "updated": "17/jul/2025"
+      },
+      {
+        "title": "FPO estimada interventor",
+        "value": "28/feb/2027",
+        "updated": "17/jul/2025"
+      },
+      {
+        "title": "No. de cambios FPO",
+        "value": "1 cambios",
+        "updated": "17/jul/2025"
+      }
+    ],
+    "progressSummary": [
+      {
+        "title": "Subestaciones",
+        "percentage": 19.3,
+        "hasDelay": null,
+        "delayDays": null,
+        "updated": "2025-07-17"
+      },
+      {
+        "title": "Líneas de transmisión",
+        "percentage": 5.8,
+        "hasDelay": null,
+        "delayDays": null,
+        "updated": "2025-07-17"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Subestación Norte Pacífico 250 kV",
+        "license": null,
+        "construction": 19.3
+      },
+      {
+        "title": "Subestación Norte Marcos 200 kV",
+        "license": null,
+        "construction": 29.8
+      },
+      {
+        "title": "Subestación Norte Pacífico 130 kV",
+        "license": null,
+        "construction": 5.8
+      }
+    ],
+    "chartData": [],
+    "documents": "https://www.upme.gov.co/convocatorias/convocatoria-publica-upme-02-2021-subestacion-pacifico-230-kv-y-lineas-de-transmision-asociadas/",
+    "mapEmbedUrl": "https://sig.upme.gov.co/portal/apps/experiencebuilder/experience/?id=9c0c3259a7a549d5b5498ec336b73608",
+    "sidebarInfo": {
+      "id": "C-03-2023",
+      "name": "Subestación Electrica Norte III 220 kV"
+    },
+    "connections": {
+      "total_proyectos_a_conectar": 1,
+      "total_capacidad_proyectos_a_conectar": 5,
+      "total_proyectos_solares_a_conectar": null,
+      "total_proyectos_eolicos_a_conectar": 15
+    }
+  }
+]

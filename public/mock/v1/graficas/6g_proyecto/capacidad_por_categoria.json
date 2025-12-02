@@ -1,0 +1,22 @@
+[
+  {
+    "categoria": "Generación",
+    "capacidad_mw": 7000,
+    "proyectos": 200
+  },
+  {
+    "categoria": "Transmisión",
+    "capacidad_mw": 1500,
+    "proyectos": 50
+  },
+  {
+    "categoria": "Distribución",
+    "capacidad_mw": 800,
+    "proyectos": 30
+  },
+  {
+    "categoria": "Autogeneración",
+    "capacidad_mw": 400,
+    "proyectos": 80
+  }
+]

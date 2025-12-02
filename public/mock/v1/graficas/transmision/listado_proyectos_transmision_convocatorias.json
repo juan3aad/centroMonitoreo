@@ -1,0 +1,35 @@
+[
+  {
+    "numero_convocatoria": "C-01-2023",
+    "nombre_proyecto": "Ampliación Subestación Eléctrica Norte y Línea Asociada",
+    "inversionista": "Energía Futura S.A. E.S.P.",
+    "departamento": "Antioquia",
+    "fpo_vigente": "2025-12-31T00:00:00Z",
+    "etapa": "Construcción",
+    "avance_real": 0.75,
+    "avance_real_subestacion": 0.80,
+    "avance_real_linea": 0.70
+  },
+  {
+    "numero_convocatoria": "C-02-2023",
+    "nombre_proyecto": "Nueva Línea de Transmisión Centro-Occidente 230kV",
+    "inversionista": "Transmisión Colombia S.A.",
+    "departamento": "Valle del Cauca",
+    "fpo_vigente": "2026-06-30T00:00:00Z",
+    "etapa": "Diseño y Estudios",
+    "avance_real": 0.30,
+    "avance_real_subestacion": 0.20,
+    "avance_real_linea": 0.35
+  },
+  {
+    "numero_convocatoria": "C-03-2023",
+    "nombre_proyecto": "Refuerzo Red Eléctrica del Caribe",
+    "inversionista": "Caribe Power Ltda.",
+    "departamento": "Bolívar",
+    "fpo_vigente": "2024-11-15T00:00:00Z",
+    "etapa": "En Operación",
+    "avance_real": 1.00,
+    "avance_real_subestacion": 1.00,
+    "avance_real_linea": 1.00
+  }
+]

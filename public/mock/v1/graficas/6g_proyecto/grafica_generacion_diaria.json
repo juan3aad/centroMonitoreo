@@ -1,0 +1,17 @@
+{
+  "labels": ["01/11", "02/11", "03/11", "04/11", "05/11", "06/11", "07/11"],
+  "datasets": [
+    {
+      "label": "Generación Solar (MWh)",
+      "data": [120, 150, 130, 160, 140, 170, 155],
+      "borderColor": "#FFC107",
+      "backgroundColor": "rgba(255, 193, 7, 0.2)"
+    },
+    {
+      "label": "Generación Eólica (MWh)",
+      "data": [80, 90, 75, 100, 85, 95, 88],
+      "borderColor": "#00BCD4",
+      "backgroundColor": "rgba(0, 188, 212, 0.2)"
+    }
+  ]
+}

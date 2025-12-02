@@ -2,6 +2,8 @@
 import axios from 'axios';
 import { API } from '../config/api';
 
+const useMock = import.meta.env.VITE_USE_MOCK_API === 'true';
+
 /**
  * Instancia de Axios configurada para la API
  */
@@ -19,10 +21,20 @@ export const apiClient = axios.create({
  */
 apiClient.interceptors.request.use(
   (config) => {
-    // Agregar timestamp para medir tiempo de respuesta
     config.metadata = { startTime: Date.now() };
+
+    if (useMock) {
+      // Cambiar a método GET
+      config.method = 'get';
+      // Construir la nueva URL para apuntar al archivo JSON
+      // Ej: /v1/indicadores/6g_proyecto -> /mock/v1/indicadores/6g_proyecto.json
+      if (config.url) {
+        config.url = `${config.url}.json`;
+      }
+      // Eliminar el cuerpo de la petición ya que es un GET
+      config.data = undefined;
+    }
     
-    // Debug: Log de URLs para detectar duplicación
     if (config.url && config.url.includes('transmision')) {
       console.log('Axios Request URL:', config.baseURL + config.url);
     }
@@ -44,19 +56,17 @@ apiClient.interceptors.response.use(
   (error) => {
     // Manejo centralizado de errores
     if (error.response) {
-      // Error de respuesta del servidor
       const { status, data } = error.response;
       
       switch (status) {
         case 401:
-          // No autorizado - redirigir a login
           console.error('No autorizado');
           break;
         case 403:
           console.error('Acceso prohibido');
           break;
         case 404:
-          console.error('Recurso no encontrado');
+          console.error(`Recurso no encontrado: ${error.config.url}`);
           break;
         case 500:
           console.error('Error del servidor');
@@ -65,10 +75,8 @@ apiClient.interceptors.response.use(
           console.error(`Error ${status}: ${data?.message || error.message}`);
       }
     } else if (error.request) {
-      // Error de red
-      console.error('Error de conexión. Verifica tu conexión a internet.');
+      console.error('Error de conexión. Verifica tu conexión a internet o la disponibilidad del mock.');
     } else {
-      // Error al configurar la petición
       console.error('Error al configurar la petición:', error.message);
     }
     

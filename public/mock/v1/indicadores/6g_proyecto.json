@@ -1,0 +1,19 @@
+{
+  "indicadores": [
+    { "titulo": "Demanda energía SIN" },
+    { "titulo": "Generación hidráulica" },
+    { "titulo": "Generación térmica" },
+    { "titulo": "Generación solar y eólica" }
+  ],
+  "charts": [
+    { "titulo": "Evolución del Volumen Útil por Región" },
+    { "titulo": "Capacidad Instalada Despachada" },
+    { "titulo": "Evolución del Volumen Útil 2" },
+    { "titulo": "Capacidad Despachada por Tecnología" }
+  ],
+  "map": {},
+  "proyectos": [
+    { "tipo": "Eólica", "capacidad": "10", "departamento": "La Guajira", "autorizacion": "25-05-2025", "ejecucion": "20-01-2027" },
+    { "tipo": "Solar", "capacidad": "8", "departamento": "Norte de Santander", "autorizacion": "28-06-2025", "ejecucion": "25-02-2027" }
+  ]
+}

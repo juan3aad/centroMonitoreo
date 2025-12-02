@@ -1,0 +1,7 @@
+{
+  "demanda_nacional_gwh": 6500,
+  "generacion_total_gwh": 6800,
+  "precio_bolsa_kwh": 0.12,
+  "capacidad_instalada_mw": 18000,
+  "participacion_renovables_porcentaje": 35
+}

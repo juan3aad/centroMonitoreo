@@ -1,0 +1,56 @@
+[
+  {
+    "id": 101,
+    "nombre": "Ituango",
+    "region": "Antioquia",
+    "nivel": "90%",
+    "aportes_hidricos": "+12%",
+    "capacidad_generacion_mw": "1200 MW",
+    "detalle_embalse": {
+      "volumen_gwh_dia": "23.00 (+2.55)",
+      "nivel": "90%",
+      "capacidad_gwh_dia": "1200 GWh-día"
+    },
+    "detalle_aportes": {
+      "aportes_gwh_dia": "23.00 (+2.55)",
+      "porcentaje": "100% (+34.89)",
+      "media_historica_gwh_dia": "1200 GWh-día"
+    }
+  },
+  {
+    "id": 102,
+    "nombre": "Miraflores",
+    "region": "Antioquia",
+    "nivel": "99%",
+    "aportes_hidricos": "+12%",
+    "capacidad_generacion_mw": "1200 MW",
+    "detalle_embalse": {
+      "volumen_gwh_dia": "23.00 (+2.55)",
+      "nivel": "99%",
+      "capacidad_gwh_dia": "1200 GWh-día"
+    },
+    "detalle_aportes": {
+      "aportes_gwh_dia": "23.00 (+2.55)",
+      "porcentaje": "100% (+34.89)",
+      "media_historica_gwh_dia": "1200 GWh-día"
+    }
+  },
+  {
+    "id": 201,
+    "nombre": "Amani",
+    "region": "Caldas",
+    "nivel": "90%",
+    "aportes_hidricos": "+12%",
+    "capacidad_generacion_mw": "1200 MW",
+    "detalle_embalse": {
+      "volumen_gwh_dia": "23.00 (+2.55)",
+      "nivel": "90%",
+      "capacidad_gwh_dia": "1200 GWh-día"
+    },
+    "detalle_aportes": {
+      "aportes_gwh_dia": "23.00 (-2.55)",
+      "porcentaje": "100% (-34.89)",
+      "media_historica_gwh_dia": "1200 GWh-día"
+    }
+  }
+]

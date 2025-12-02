@@ -1,0 +1,13 @@
+{
+  "labels": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago"],
+  "series": [
+    {
+      "name": "Aportes Históricos (GWh)",
+      "data": [1500, 1600, 1450, 1700, 1800, 1650, 1900, 1750]
+    },
+    {
+      "name": "Aportes Actuales (GWh)",
+      "data": [1400, 1550, 1400, 1650, 1750, 1600, 1850, 1700]
+    }
+  ]
+}
