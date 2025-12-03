@@ -6,41 +6,21 @@ import apiClient from '../lib/axios';
  * Funciones de fetch para Gráficas 6GW
  */
 export const fetchCapacidadPorTecnologia = async () => {
-  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
-    const response = await fetch('/mock/v1/graficas/6g_proyecto/capacidad_por_tecnologia.json');
-    const data = await response.json();
-    return data;
-  }
   const { data } = await apiClient.post('/v1/graficas/6g_proyecto/capacidad_por_tecnologia');
   return data;
 };
 
 export const fetchCapacidadPorCategoria = async () => {
-  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
-    const response = await fetch('/mock/v1/graficas/6g_proyecto/capacidad_por_categoria.json');
-    const data = await response.json();
-    return data;
-  }
   const { data } = await apiClient.post('/v1/graficas/6g_proyecto/capacidad_por_categoria');
   return data;
 };
 
 export const fetchCapacidadPorEntrar075 = async () => {
-  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
-    const response = await fetch('/mock/v1/graficas/6g_proyecto/capacidad_por_entrar_075.json');
-    const data = await response.json();
-    return data;
-  }
   const { data } = await apiClient.post('/v1/graficas/6g_proyecto/capacidad_por_entrar_075');
   return data;
 };
 
 export const fetchMatrizCompletaAnual = async () => {
-  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
-    const response = await fetch('/mock/v1/graficas/6g_proyecto/grafica_matriz_completa_anual.json');
-    const data = await response.json();
-    return data;
-  }
   const { data } = await apiClient.post('/v1/graficas/6g_proyecto/grafica_matriz_completa_anual');
   return data;
 };
@@ -56,11 +36,6 @@ export const fetchProyectosIncumplimientos = async () => {
 };
 
 export const fetchAcumuladoCapacidadProyectos = async () => {
-  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
-    const response = await fetch('/mock/v1/graficas/6g_proyecto/acumulado_capacidad_proyectos.json');
-    const data = await response.json();
-    return data;
-  }
   const { data } = await apiClient.post('/v1/graficas/6g_proyecto/acumulado_capacidad_proyectos');
   return data;
 };
@@ -76,11 +51,6 @@ export const fetchGeneracionDiaria = async () => {
 };
 
 export const fetchGeneracionHorariaPromedio = async (payload) => {
-  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
-    const response = await fetch('/mock/v1/graficas/6g_proyecto/generacion_horaria_promedio.json');
-    const data = await response.json();
-    return data;
-  }
   const { data } = await apiClient.post('/v1/graficas/6g_proyecto/generacion_horaria_promedio', payload);
   return data;
 };

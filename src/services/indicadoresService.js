@@ -227,6 +227,13 @@ export const useHidrologiaPrecios = (options = {}) => {
 };
 
 export const fetchIndicadoresProyectos075 = async () => {
+ 
+  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
+
+    const response = await fetch('/mock/v1/indicadores/proyectos_075/indicadores_proyectos_075.json');
+    const data = await response.json();
+    return data;
+  }
   const { data } = await apiClient.post('/v1/indicadores/proyectos_075/indicadores_proyectos_075');
   return data;
 };

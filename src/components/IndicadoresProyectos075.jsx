@@ -128,7 +128,7 @@ export default function IndicadoresProyectos075() {
 //   const heroValue = LABEL_MAP.total_proyectos_bd075.value;
 
   const { data, isLoading: loading, error: queryError } = useIndicadoresProyectos075();
-
+ console.log('JAJAJA IndicadoresProyectos075 - data:', data);
   useEffect(() => {
     if (!data) return;
     
@@ -137,6 +137,8 @@ export default function IndicadoresProyectos075() {
         const next = { ...LABEL_MAP };
 
         // Hero: "n proyectos (mw MW)"
+       
+        
         const nAprobEntrar = data.total_proyectos_aprobados_a_entrar_agosto_2026 ?? 0;
         const mwAprobEntrar = data.capacidad_proyectos_aprobados_a_entrar_agosto_2026 ?? 0;
         next.total_proyectos_bd075.value = `${nf0.format(nAprobEntrar)} proyectos (${fmtMW(mwAprobEntrar)} MW)`;

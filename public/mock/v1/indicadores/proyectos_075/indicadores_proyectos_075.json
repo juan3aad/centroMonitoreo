@@ -1,8 +1,13 @@
 {
-  "total_proyectos_075": 120,
-  "proyectos_en_ejecucion": 85,
-  "proyectos_finalizados": 30,
-  "proyectos_pendientes": 5,
-  "capacidad_total_mw": 3500,
-  "inversion_estimada_millones_usd": 4500
+  "total_proyectos_aprobados_a_entrar_agosto_2026": 150,
+  "capacidad_proyectos_aprobados_a_entrar_agosto_2026": 7500,
+  "total_solicitudes": 300,
+  "total_proyectos_operacion": 100,
+  "capacidad_proyectos_operacion_mw": 5000,
+  "total_proyectos_operacion_fncer": 50,
+  "capacidad_proyectos_operacion_fncer_mw": 2500,
+  "total_solicitudes_aprobadas": 200,
+  "capacidad_solicitudes_aprobadas_mw": 10000,
+  "total_fncer_vencidos": 20,
+  "capacidad_fncer_vencidos_mw": 800
 }

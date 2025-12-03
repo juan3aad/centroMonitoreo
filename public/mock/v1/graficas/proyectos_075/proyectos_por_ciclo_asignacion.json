@@ -1,0 +1,76 @@
+{
+  "ciclo_1": {
+    "distribucion_proyectos_por_estado_asignacion": {
+      "total": 5,
+      "En_construccion": 2,
+      "En_operacion": 2,
+      "En_diseno": 1
+    },
+    "distribucion_capacidad_instalada_mw_por_estado_asignacion": {
+      "total": 450,
+      "En_construccion": 270,
+      "En_operacion": 180,
+      "En_diseno": 0
+    },
+    "distribucion_proyectos_departamento": {
+      "total": 5,
+      "Guajira": 2,
+      "Valle_del_Cauca": 1,
+      "Antioquia": 1,
+      "Meta": 1
+    },
+    "distribucion_capacidad_instalada_mw_por_departamento": {
+      "total": 450,
+      "Guajira": 200,
+      "Valle_del_Cauca": 50,
+      "Antioquia": 150,
+      "Meta": 50
+    }
+  },
+  "ciclo_2": {
+    "distribucion_proyectos_por_estado_asignacion": {
+      "total": 2,
+      "En_construccion": 1,
+      "En_operacion": 1,
+      "En_diseno": 0
+    },
+    "distribucion_capacidad_instalada_mw_por_estado_asignacion": {
+      "total": 250,
+      "En_construccion": 150,
+      "En_operacion": 100,
+      "En_diseno": 0
+    },
+    "distribucion_proyectos_departamento": {
+      "total": 2,
+      "Cesar": 1,
+      "Atlantico": 1
+    },
+    "distribucion_capacidad_instalada_mw_por_departamento": {
+      "total": 250,
+      "Cesar": 150,
+      "Atlantico": 100
+    }
+  },
+  "ciclo_3": {
+    "distribucion_proyectos_por_estado_asignacion": {
+      "total": 1,
+      "En_construccion": 0,
+      "En_operacion": 0,
+      "En_diseno": 1
+    },
+    "distribucion_capacidad_instalada_mw_por_estado_asignacion": {
+      "total": 50,
+      "En_construccion": 0,
+      "En_operacion": 0,
+      "En_diseno": 50
+    },
+    "distribucion_proyectos_departamento": {
+      "total": 1,
+      "Cundinamarca": 1
+    },
+    "distribucion_capacidad_instalada_mw_por_departamento": {
+      "total": 50,
+      "Cundinamarca": 50
+    }
+  }
+}

@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": "1",
+    "nombre_proyecto": "Proyecto Solar del Valle",
+    "capacidad_instalada_mw": 100,
+    "fpo": "2024-12-31T00:00:00Z",
+    "porcentaje_avance": 75,
+    "priorizado": "Sí",
+    "ciclo_asignacion": "Ciclo 1",
+    "promotor": "Energía Limpia S.A.",
+    "departamento": "Valle del Cauca",
+    "municipio": "Cali",
+    "estado_proyecto": "En construcción"
+  },
+  {
+    "id": "2",
+    "nombre_proyecto": "Parque Eólico La Guajira",
+    "capacidad_instalada_mw": 250,
+    "fpo": "2025-06-30T00:00:00Z",
+    "porcentaje_avance": 50,
+    "priorizado": "Sí",
+    "ciclo_asignacion": "Ciclo 1",
+    "promotor": "Vientos del Norte Ltda.",
+    "departamento": "La Guajira",
+    "municipio": "Uribia",
+    "estado_proyecto": "En construcción"
+  },
+  {
+    "id": "3",
+    "nombre_proyecto": "Central Hidroeléctrica El Salto",
+    "capacidad_instalada_mw": 500,
+    "fpo": "2026-01-15T00:00:00Z",
+    "porcentaje_avance": 20,
+    "priorizado": "No",
+    "ciclo_asignacion": "Ciclo 2",
+    "promotor": "AquaPower S.A.S.",
+    "departamento": "Antioquia",
+    "municipio": "Medellín",
+    "estado_proyecto": "En diseño"
+  },
+  {
+    "id": "4",
+    "nombre_proyecto": "Planta Biomasa Verde",
+    "capacidad_instalada_mw": 50,
+    "fpo": "2024-09-01T00:00:00Z",
+    "porcentaje_avance": 90,
+    "priorizado": "No",
+    "ciclo_asignacion": "Ciclo 1",
+    "promotor": "BioEnergía Colombia",
+    "departamento": "Meta",
+    "municipio": "Villavicencio",
+    "estado_proyecto": "En operación"
+  }
+]
