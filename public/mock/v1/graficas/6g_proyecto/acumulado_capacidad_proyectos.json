@@ -1,0 +1,50 @@
+[
+  {
+    "fecha": "2023-01-01",
+    "capacidad_mw": 100
+  },
+  {
+    "fecha": "2023-02-01",
+    "capacidad_mw": 120
+  },
+  {
+    "fecha": "2023-03-01",
+    "capacidad_mw": 150
+  },
+  {
+    "fecha": "2023-04-01",
+    "capacidad_mw": 180
+  },
+  {
+    "fecha": "2023-05-01",
+    "capacidad_mw": 220
+  },
+  {
+    "fecha": "2023-06-01",
+    "capacidad_mw": 270
+  },
+  {
+    "fecha": "2023-07-01",
+    "capacidad_mw": 330
+  },
+  {
+    "fecha": "2023-08-01",
+    "capacidad_mw": 400
+  },
+  {
+    "fecha": "2023-09-01",
+    "capacidad_mw": 480
+  },
+  {
+    "fecha": "2023-10-01",
+    "capacidad_mw": 570
+  },
+  {
+    "fecha": "2023-11-01",.
+    "capacidad_mw": 670
+  },
+  {
+    "fecha": "2023-12-01",
+    "capacidad_mw": 780
+  }
+]

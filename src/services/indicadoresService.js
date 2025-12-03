@@ -6,6 +6,11 @@ import apiClient from '../lib/axios';
  * Funciones de fetch para Indicadores 6GW
  */
 export const fetchIndicadores6GW = async () => {
+  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
+    const response = await fetch('/mock/v1/indicadores/6g_proyecto.json');
+    const data = await response.json();
+    return data;
+  }
   const { data } = await apiClient.post('/v1/indicadores/6g_proyecto');
   return data;
 };
@@ -33,11 +38,21 @@ export const fetchHidrologiaConsolidado = async () => {
 };
 
 export const fetchHidrologiaEmbalses = async () => {
+  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
+    const response = await fetch('/mock/v1/hidrologia/indicadores_expander_embalses.json');
+    const data = await response.json();
+    return data;
+  }
   const { data } = await apiClient.post('/v1/indicadores/hidrologia/indicadores_expander_embalses');
   return data;
 };
 
 export const fetchHidrologiaAportes = async () => {
+  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
+    const response = await fetch('/mock/v1/hidrologia/indicadores_expander_embalses_aportes.json');
+    const data = await response.json();
+    return data;
+  }
   const { data } = await apiClient.post('/v1/indicadores/hidrologia/indicadores_expander_embalses_aportes');
   return data;
 };

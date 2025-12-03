@@ -1,0 +1,8 @@
+[
+  { "mes": "Ene-24", "Solar": 10, "Eólica": 5, "Hidráulica": 0, "Térmica": 2, "Biomasa": 1 },
+  { "mes": "Feb-24", "Solar": 12, "Eólica": 8, "Hidráulica": 2, "Térmica": 3, "Biomasa": 1 },
+  { "mes": "Mar-24", "Solar": 15, "Eólica": 10, "Hidráulica": 1, "Térmica": 2, "Biomasa": 2 },
+  { "mes": "Abr-24", "Solar": 18, "Eólica": 12, "Hidráulica": 3, "Térmica": 4, "Biomasa": 1 },
+  { "mes": "May-24", "Solar": 22, "Eólica": 15, "Hidráulica": 2, "Térmica": 3, "Biomasa": 2 },
+  { "mes": "Jun-24", "Solar": 27, "Eólica": 18, "Hidráulica": 4, "Térmica": 5, "Biomasa": 1 }
+]

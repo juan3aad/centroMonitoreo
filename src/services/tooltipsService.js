@@ -6,6 +6,11 @@ import apiClient from '../lib/axios';
  * Función de fetch para tooltips
  */
 export const fetchTooltips = async () => {
+  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
+    const response = await fetch('/mock/v1/tooltips/tooltips.json');
+    const data = await response.json();
+    return data;
+  }
   const { data } = await apiClient.post('/v1/tooltips/tooltips');
   return data;
 };

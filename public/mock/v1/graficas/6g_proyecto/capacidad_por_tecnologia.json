@@ -1,27 +1,22 @@
 [
   {
-    "tecnologia": "Solar Fotovoltaica",
-    "capacidad_mw": 2500,
-    "proyectos": 120
+    "tipo_tecnologia": "Solar",
+    "capacidad_mw": 3500
   },
   {
-    "tecnologia": "Eólica",
-    "capacidad_mw": 1800,
-    "proyectos": 45
+    "tipo_tecnologia": "Eólica",
+    "capacidad_mw": 2500
   },
   {
-    "tecnologia": "Hidroeléctrica",
-    "capacidad_mw": 3200,
-    "proyectos": 30
+    "tipo_tecnologia": "Hidráulica",
+    "capacidad_mw": 18000
   },
   {
-    "tecnologia": "Biomasa",
-    "capacidad_mw": 300,
-    "proyectos": 15
+    "tipo_tecnologia": "Térmica",
+    "capacidad_mw": 5000
   },
   {
-    "tecnologia": "Geotérmica",
-    "capacidad_mw": 150,
-    "proyectos": 5
+    "tipo_tecnologia": "Biomasa",
+    "capacidad_mw": 300
   }
 ]
