@@ -1,0 +1,16 @@
+[
+  { "fecha_entrada_operacion": "2024-01-01", "Solar": 100, "Eólica": 50, "Hidráulica": 17000, "Térmica": 5000, "Biomasa": 200, "PCH": 100 },
+  { "fecha_entrada_operacion": "2023-02-01", "Solar": 120, "Eólica": 60, "Hidráulica": 17050, "Térmica": 5000, "Biomasa": 200, "PCH": 110 },
+  { "fecha_entrada_operacion": "2023-03-01", "Solar": 150, "Eólica": 70, "Hidráulica": 17100, "Térmica": 5010, "Biomasa": 210, "PCH": 120 },
+  { "fecha_entrada_operacion": "2023-04-01", "Solar": 180, "Eólica": 80, "Hidráulica": 17150, "Térmica": 5010, "Biomasa": 210, "PCH": 130 },
+  { "fecha_entrada_operacion": "2023-05-01", "Solar": 220, "Eólica": 90, "Hidráulica": 17200, "Térmica": 5020, "Biomasa": 220, "PCH": 140 },
+  { "fecha_entrada_operacion": "2023-06-01", "Solar": 270, "Eólica": 100, "Hidráulica": 17250, "Térmica": 5020, "Biomasa": 220, "PCH": 150 },
+  { "fecha_entrada_operacion": "2023-07-01", "Solar": 330, "Eólica": 110, "Hidráulica": 17300, "Térmica": 5030, "Biomasa": 230, "PCH": 160 },
+  { "fecha_entrada_operacion": "2023-08-01", "Solar": 400, "Eólica": 120, "Hidráulica": 17350, "Térmica": 5030, "Biomasa": 230, "PCH": 170 },
+  { "fecha_entrada_operacion": "2023-09-01", "Solar": 480, "Eólica": 130, "Hidráulica": 17400, "Térmica": 5040, "Biomasa": 240, "PCH": 180 },
+  { "fecha_entrada_operacion": "2023-10-01", "Solar": 570, "Eólica": 140, "Hidráulica": 17450, "Térmica": 5040, "Biomasa": 240, "PCH": 190 },
+  { "fecha_entrada_operacion": "2023-12-01", "Solar": 780, "Eólica": 160, "Hidráulica": 17550, "Térmica": 5050, "Biomasa": 250, "PCH": 210 },
+  { "fecha_entrada_operacion": "2022-08-01", "Solar": 780, "Eólica": 160, "Hidráulica": 17550, "Térmica": 5050, "Biomasa": 250, "PCH": 210 },
+  { "fecha_entrada_operacion": "2022-11-01", "Solar": 780, "Eólica": 160, "Hidráulica": 17550, "Térmica": 5050, "Biomasa": 250, "PCH": 210 },
+  { "fecha_entrada_operacion": "2023-11-01", "Solar": 670, "Eólica": 150, "Hidráulica": 17500, "Térmica": 5050, "Biomasa": 250, "PCH": 200 }
+]

@@ -1,50 +1,27 @@
 [
   {
-    "fecha": "2023-01-01",
-    "capacidad_mw": 100
+    "tipo_proyecto_fuente": "Solar",
+    "capacidad_acumulada": 3500,
+    "numero_proyectos": 120
   },
   {
-    "fecha": "2023-02-01",
-    "capacidad_mw": 120
+    "tipo_proyecto_fuente": "Eólica",
+    "capacidad_acumulada": 2500,
+    "numero_proyectos": 45
   },
   {
-    "fecha": "2023-03-01",
-    "capacidad_mw": 150
+    "tipo_proyecto_fuente": "Hidráulica",
+    "capacidad_acumulada": 18000,
+    "numero_proyectos": 80
   },
   {
-    "fecha": "2023-04-01",
-    "capacidad_mw": 180
+    "tipo_proyecto_fuente": "Térmica",
+    "capacidad_acumulada": 5000,
+    "numero_proyectos": 60
   },
   {
-    "fecha": "2023-05-01",
-    "capacidad_mw": 220
-  },
-  {
-    "fecha": "2023-06-01",
-    "capacidad_mw": 270
-  },
-  {
-    "fecha": "2023-07-01",
-    "capacidad_mw": 330
-  },
-  {
-    "fecha": "2023-08-01",
-    "capacidad_mw": 400
-  },
-  {
-    "fecha": "2023-09-01",
-    "capacidad_mw": 480
-  },
-  {
-    "fecha": "2023-10-01",
-    "capacidad_mw": 570
-  },
-  {
-    "fecha": "2023-11-01",.
-    "capacidad_mw": 670
-  },
-  {
-    "fecha": "2023-12-01",
-    "capacidad_mw": 780
+    "tipo_proyecto_fuente": "Biomasa",
+    "capacidad_acumulada": 300,
+    "numero_proyectos": 15
   }
 ]

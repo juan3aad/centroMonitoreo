@@ -221,6 +221,26 @@ export const fetchProyectoDetalleTransmision = async (projectId) => {
   return data;
 };
 
+export const fetchEvolucionCapacidadInstalada = async () => {
+  if (import.meta.env.VITE_USE_MOCK_API === 'true') {
+    const response = await fetch('/mock/v1/graficas/6g_proyecto/evolucion_capacidad_instalada.json');
+    const data = await response.json();
+    return data;
+  }
+  // In a real scenario, this would call a different endpoint
+  const { data } = await apiClient.post('/v1/graficas/6g_proyecto/evolucion_capacidad_instalada');
+  return data;
+};
+
+export const useEvolucionCapacidadInstalada = (options = {}) => {
+  return useQuery({
+    queryKey: ['graficas', 'evolucion-capacidad-instalada'],
+    queryFn: fetchEvolucionCapacidadInstalada,
+    staleTime: 15 * 60 * 1000,
+    ...options,
+  });
+};
+
 /**
  * Hooks individuales para Gráficas 6GW
  */
@@ -300,7 +320,7 @@ export const useGeneracionHorariaPromedio = (payload, options = {}) =>
   useQuery({
     queryKey: ['graficas', 'generacion-horaria-promedio', payload],
     queryFn: () => fetchGeneracionHorariaPromedio(payload),
-    staleTime: 15 * 60 * 1000,
+    staleTime: 0, // Set staleTime to 0 to always fetch fresh data
     enabled: !!payload,
     ...options,
   });
@@ -476,4 +496,3 @@ export const useResumenCharts = (options = {}) => {
     ...options,
   });
 };
-

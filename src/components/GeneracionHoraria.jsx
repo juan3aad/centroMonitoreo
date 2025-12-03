@@ -24,11 +24,11 @@ function stackedMax(series, len) {
 
 export function GeneracionHoraria() {
   // Prepara payloads
-  const payload1 = { fecha_inicio: '2022-01-01', fecha_fin: '2022-06-30', meses: 6 };
+  const payload1 = { fecha_inicio: '2022-01-01', fecha_fin: '2024-06-30', meses: 2 };
   const hoy = new Date();
   const fecha_fin2 = hoy.toISOString().slice(0,10);
   const inicio = new Date(hoy.getFullYear(), hoy.getMonth()-5,1).toISOString().slice(0,10);
-  const payload2 = { fecha_inicio: inicio, fecha_fin: fecha_fin2, meses: 6 };
+  const payload2 = { fecha_inicio: inicio, fecha_fin: fecha_fin2, meses: 2 };
 
   // Fetch paralelo con React Query
   const query1 = useGeneracionHorariaPromedio(payload1);
@@ -56,7 +56,7 @@ export function GeneracionHoraria() {
 
     const baseOptions = {
       chart: { type: 'area', height: 500 },
-      title: { text:'Curva de generación primer semestre 2022' },
+      title: { text:'Curva de generación primer semestre 2023' },
       xAxis: {
         categories: horas1, tickInterval:1,
         title: { text: 'Hora del día', style: { color: tokens.colors.text.secondary } },

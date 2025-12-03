@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "indicador": "EN OPERACIÓN",
+    "capacidad_mw": 20000
+  },
+  {
+    "indicador": "PRUEBAS",
+    "capacidad_mw": 1500
+  },
+  {
+    "indicador": "CAPACIDAD A ENTRAR 075",
+    "capacidad_mw": 5000
+  },
+  {
+    "indicador": "FNCER GRAN ESCALA",
+    "capacidad_mw": 8000
+  },
+  {
+    "indicador": "AGGE",
+    "capacidad_mw": 2000
+  },
+  {
+    "indicador": "GENERACION DISTRIBUIDA",
+    "capacidad_mw": 1000
+  },
+  {
+    "indicador": "AGPE",
+    "capacidad_mw": 500
+  },
+  {
+    "indicador": "ZNI",
+    "capacidad_mw": 100
+  },
+  {
+    "indicador": "CAPACIDAD TOTAL",
+    "capacidad_mw": 38100
+  }
+]

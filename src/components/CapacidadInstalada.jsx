@@ -1,7 +1,7 @@
 // src/components/CapacidadInstalada.jsx
 import Highcharts from '../lib/highcharts-config';
 import { useEffect, useMemo, useRef } from 'react';
-import { useAcumuladoCapacidadProyectos } from '../services/graficasService';
+import { useEvolucionCapacidadInstalada } from '../services/graficasService';
 import ChartWrapper from './charts/ChartWrapper';
 import { getColorForTechnology } from '../lib/chart-colors';
 import { stackedAreaTooltipFormatter } from '../lib/chart-tooltips';
@@ -20,7 +20,7 @@ export function CapacidadInstalada() {
   const chartRef = useRef(null);
 
   // Hooks de React Query
-  const { data, isLoading: loading, error } = useAcumuladoCapacidadProyectos();
+  const { data, isLoading: loading, error } = useEvolucionCapacidadInstalada();
 
   const options = useMemo(() => {
     if (!data || !Array.isArray(data) || data.length === 0) return null;
@@ -146,4 +146,3 @@ export function CapacidadInstalada() {
 }
 
 export default CapacidadInstalada;
-
